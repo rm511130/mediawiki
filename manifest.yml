@@ -1,0 +1,15 @@
+---
+applications:
+- name: mediawiki
+  routes:
+  - route: media_wiki.cfapps.io
+  memory: 512M
+  buildpack: php_buildpack # https://github.com/cloudfoundry/php-buildpack
+  #buildpack: https://github.com/cloudfoundry/php-buildpack#v4.3.35
+  #buildpack: https://github.com/heroku/heroku-buildpack-php
+  env:
+    SECRET_KEY: anysecretvalue
+    UPGRADE_KEY: anysecretvalue
+  services:
+  - mediawiki
+

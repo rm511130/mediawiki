@@ -1,0 +1,4 @@
+{
+    "COMPOSER_VENDOR_DIR": "{BUILD_DIR}/htdocs/vendor",
+    "WEB_SERVER": "nginx"
+}
