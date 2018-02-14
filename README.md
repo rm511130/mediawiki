@@ -184,6 +184,10 @@ Note that some errors, for example ````Class ComposerVendorHtaccessCreator is no
 
 5) Take your favorite browser and try to access the route you defined in the  ````manifest.yml```` file:
 
+````https://media_wiki.cfapps.io````
+
+![Alt text](images/MediaWiki.jpg?raw=true "Title")
+
 
 
   
