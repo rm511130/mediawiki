@@ -188,7 +188,18 @@ Note that some errors, for example ````Class ComposerVendorHtaccessCreator is no
 
 ![Alt text](images/MediaWiki.jpg?raw=true "Title")
 
+# Additional Areas to look into and incorporate
 
+Apart from having to figure out why am I getting the ````Class ComposerVendorHtaccessCreator is not autoloadable```` problem, 
+which incidently does not occur when I use the ````https://github.com/heroku/heroku-buildpack-php```` buildpack, I'd like to incorporate 
+a few additional elements to my MediaWiki installation on PCF.
+
+a) ElasticSearch: https://www.mediawiki.org/wiki/Topic:Tunzh8dllfu5ndw5
+b) Parsoid Visual Editor: https://www.mediawiki.org/wiki/Parsoid
+
+And I also need to investigate why ````https://github.com/pronoiac/mediawiki_on_pws```` also utilized a PostgreSQL DB in his example.
+
+So.... I'll be back to add more notes later.
 
   
      
